@@ -21,7 +21,14 @@
         <!-- Camera output -->
         <img src="//:0" alt="" id="camera--output">
         <!-- Camera trigger -->
-        <button id="camera--trigger">Take a picture</button>
+        <p id="numb"></p>
+
+<script>
+function myFunction() {
+    var num = document.getElementById("numb")
+    num.innerHTML = Math.floor((Math.random() * 10000000) + 1);
+}
+</script>
     </main>
     <!-- Reference to your JavaScript file -->
     <script src="app.js"></script>
