@@ -11,7 +11,7 @@ html, body{
     object-fit: cover;
 }
 #camera--view, #camera--sensor, #camera--output{
-    transform: rotateY(180deg);
+    transform: rotate(180deg);
     filter: blur(0px);
 }
 #camera--trigger{
