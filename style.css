@@ -12,7 +12,7 @@ html, body{
     
 }
 #camera--view, #camera--sensor, #camera--output{
-    -webkit-transform: rotateX(180deg);
+    -webkit-transform: rotateY(180deg);
     transform: rotateX(180deg);
     filter: blur(0px);
 }
