@@ -12,6 +12,7 @@ html, body{
 }
 #camera--view, #camera--sensor, #camera--output{
     transform: scaleX(-1);
+    filter: blur(0px);
 }
 #camera--trigger{
     width: 200px;
