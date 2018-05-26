@@ -13,7 +13,7 @@ html, body{
 }
 #camera--view, #camera--sensor, #camera--output{
     -webkit-transform: rotateY(180deg);
-    transform: rotateX(180deg);
+    transform: rotateY(180deg);
     filter: blur(0px);
 }
 #camera--trigger{
