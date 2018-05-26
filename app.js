@@ -25,6 +25,10 @@ cameraTrigger.onclick = function() {
     cameraOutput.src = cameraSensor.toDataURL("image/webp");
     cameraOutput.classList.add("taken");
 };
+function myFunction() {
+    var num = document.getElementById("numb")
+    num.innerHTML = Math.floor((Math.random() * 10000000) + 1);
+}
 // Start the video stream when the window loads
 window.addEventListener("load", cameraStart, false);
 
