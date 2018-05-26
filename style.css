@@ -14,7 +14,7 @@ html, body{
     transform: scaleX(0,1);
     filter: FlipH;
 }
-#camera--trigger{
+#numb{
     width: 200px;
     background-color: black;
     color: white;
