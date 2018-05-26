@@ -9,11 +9,10 @@ html, body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    
 }
 #camera--view, #camera--sensor, #camera--output{
-    -webkit-transform: rotateY(180deg);
-    filter: blur(0px);
+    transform: scaleX(-1,1);
+    filter: FlipH;
 }
 #camera--trigger{
     width: 200px;
